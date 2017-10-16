@@ -24,13 +24,13 @@
 
     <div class="wrapper">
 
-        <h1>The Star Wars Blogg</h1>
+        <h1>Tatooine Times</h1>
 
 
         <?php foreach ($posts as $id => $post): ?>
             <div class="post">
                 <div class="profile">
-                    <div class="profilePic"> <?php echo $post['profilePic']; ?></div>
+                    <div class="profilePic"> <img class="profImg" src="<?php echo $post['profilePic']; ?>"></div>
                     <div class="name"> <?php echo $post['name'];?></div>
                 </div>
                 <div class="shared">
