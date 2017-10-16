@@ -22,22 +22,50 @@
 </head>
 <body>
 
-    <div class="wrapper">
+    <header>
+        <h1>The Tatooine Times</h1>
 
-        <h1>Tatooine Times</h1>
+     <div class="date"><?php echo $date ?></div>
+    </header>
+    <div class="menu">
+        <ul>
+            <li>News</li>
+            <li>Politics</li>
+            <li>Sports</li>
+            <li>Opinion</li>
+            <li>Global</li>
+            <li>Science</li>
+            <li>Galaxy</li>
+            <li>Force</li>
+            <li>Weather</li>
+        </ul>
+    </div>
+    <div class="wrapper">
 
 
         <?php foreach ($posts as $id => $post): ?>
             <div class="post">
-                <div class="profile">
-                    <div class="profilePic"> <img class="profImg" src="<?php echo $post['profilePic']; ?>"></div>
-                    <h3 class="name"> <?php echo $post['name'];?></h3>
-                </div>
+
+                    <div class="sharedImg"> <img src="<?php echo $post['sharedImg'];?>" alt=""> </div>
+
                 <div class="shared">
-                    <div class="content"> <?php echo $post['content']; ?></div>
-                    <div class="sharedImg"> <?php echo $post['sharedImg']; ?></div>
-                    <div class="release"> <?php echo $post['release']; ?></div>
+
+                    <div class="text">
+
+                        <h2 class="headline"> <?php echo $post['headline']; ?></h2>
+                        <div class="content"> <?php echo $post['content']; ?></div>
+
+                    </div>
+
+                    <div class="profile">
+                        <div class="profilePic"> <img class="profImg" src="<?php echo $post['profilePic']; ?>"></div>
+                        <h3 class="name"> <?php echo $post['name'];?></h3>
+                        <h4 class="title"><?php echo $post['title'];?></h4>
+                        <div class="release"> <?php echo $post['release']; ?></div>
+                    </div>
                 </div>
+
+
              </div>
         <?php endforeach; ?>
 
