@@ -2,6 +2,8 @@
 
   declare(strict_types=1);
 
+ 
+
 
   // This is the file where you can keep all your data such as articles and
   // authors.
@@ -35,8 +37,8 @@ $posts = [
                             It’s the ship that made the Kessel run in less than 12 parsecs.',
                 'release' => '2017-09-21',
                 'profilePic' => 'images/han.png',
-                'sharedImg' => 'images/starwars'
-                ]
+                'sharedImg' => 'images/starwars'],
 
 
-];
+
+            ];

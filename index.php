@@ -24,26 +24,18 @@
 
     <div class="wrapper">
 
-        <!-- STRUKTUREN FÖR POSTSTEN SKALL SE UT SOM ENLIGT NEDAN
-        LÖS MED PHP, SOM NEDAN!
-
-         <div class="post">
-            <div class="name"></div>
-            <div class="content"></div>
-            <div class="date"></div>
-            <div class="profPic"></div>
-            <div class="sharedImg"></div>
-
-        </div> -->
-
 
         <?php foreach ($posts as $id => $post): ?>
             <div class="post">
-                <div class="name"> <?php echo $post['name'];?></div>
-                <div class="content"> <?php echo $post['content']; ?></div>
-                <div class="profilePic"> <?php echo $post['profilePic']; ?></div>
-                <div class="sharedImg"> <?php echo $post['sharedImg']; ?></div>
-                <div class="release"> <?php echo $post['release']; ?></div>
+                <div class="profile">
+                    <div class="profilePic"> <?php echo $post['profilePic']; ?></div>
+                    <div class="name"> <?php echo $post['name'];?></div>
+                </div>
+                <div class="shared">
+                    <div class="content"> <?php echo $post['content']; ?></div>
+                    <div class="sharedImg"> <?php echo $post['sharedImg']; ?></div>
+                    <div class="release"> <?php echo $post['release']; ?></div>
+                </div>
              </div>
         <?php endforeach; ?>
 
