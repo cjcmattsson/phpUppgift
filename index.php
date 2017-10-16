@@ -24,6 +24,8 @@
 
     <div class="wrapper">
 
+        <h1>The Star Wars Blogg</h1>
+
 
         <?php foreach ($posts as $id => $post): ?>
             <div class="post">
