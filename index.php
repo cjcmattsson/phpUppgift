@@ -2,6 +2,8 @@
 
   declare(strict_types=1);
 
+  require data.php;
+  require functions.php;
 
   // This is the file where you can keep your HTML markup. We should always try to
   // keep us much logic out of the HTML as possible. Put the PHP logic in the top
