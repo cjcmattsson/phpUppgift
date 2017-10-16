@@ -31,7 +31,7 @@
             <div class="post">
                 <div class="profile">
                     <div class="profilePic"> <img class="profImg" src="<?php echo $post['profilePic']; ?>"></div>
-                    <div class="name"> <?php echo $post['name'];?></div>
+                    <h3 class="name"> <?php echo $post['name'];?></h3>
                 </div>
                 <div class="shared">
                     <div class="content"> <?php echo $post['content']; ?></div>
