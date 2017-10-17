@@ -7,7 +7,7 @@
 
   function sortByDate ($a, $b) {
 
-      return strtotime($a['release']) > strtotime($b['release']);
+      return strtotime($a['release']) < strtotime($b['release']);
   }
 
   usort($posts, 'sortByDate');
