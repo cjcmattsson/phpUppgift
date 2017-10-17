@@ -153,23 +153,23 @@ h2:hover {
   margin-top: 4px;
   display: flex;
   flex-direction: row;
-  padding-top: 6px;
+  padding-top:3px;
   padding-left: 3px;
-  height: 35px;
-  width: 60px;
+  height: 30px;
+  width: 55px;
   font-size: 16px;
   font-weight: bold;
   border: 1px solid rgba(149, 149, 149, 0.55);
 }
 
 .likeCounter:hover {
-  background-color: rgba(149, 149, 149, 0.55);
+  background-color: rgba(177, 175, 175, 0.42);
   color: #fff;
 }
 
 .count {
-  margin-top: 1px;
-  margin-left: 5px;
+  margin-top: 2px;
+  margin-left: 4px;
   font-family: Arial;
 
 }
