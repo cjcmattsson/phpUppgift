@@ -22,11 +22,16 @@
   <title>Document</title>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Hate scrolling? <br> Press me - Go to top!</button>
 
     <header>
         <h1>The Tatooine Times</h1>
 
      <div class="currentDate"><?php echo $currentDate ?></div>
+
+     <div class="email">
+         <!-- <p> Add some cool function-thingy</p> -->
+     </div>
     </header>
     <div class="menu">
         <ul>
@@ -39,6 +44,7 @@
             <li>Galaxy</li>
             <li>Force</li>
             <li>Weather</li>
+            <li>Horses</li>
         </ul>
     </div>
     <div class="wrapper">
@@ -81,6 +87,6 @@
 
     </div>
 
-
+<script src="functionsJS.js"></script>
 </body>
 </html>
