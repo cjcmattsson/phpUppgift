@@ -5,6 +5,7 @@
   require __DIR__.'/data.php';
   require __DIR__.'/functions.php';
 
+
   // This is the file where you can keep your HTML markup. We should always try to
   // keep us much logic out of the HTML as possible. Put the PHP logic in the top
   // of the files containing HTML or even better; in another PHP-only file.
@@ -25,7 +26,7 @@
     <header>
         <h1>The Tatooine Times</h1>
 
-     <div class="date"><?php echo $date ?></div>
+     <div class="currentDate"><?php echo $currentDate ?></div>
     </header>
     <div class="menu">
         <ul>
@@ -43,7 +44,7 @@
     <div class="wrapper">
 
 
-        <?php foreach ($posts as $id => $post): ?>
+        <?php foreach ($posts as $post): ?>
             <div class="post">
 
                     <div class="sharedImg"> <img src="<?php echo $post['sharedImg'];?>" alt=""> </div>
@@ -59,7 +60,7 @@
 
                     <div class="profile">
                         <div class="profilePic"> <img class="profImg" src="<?php echo $post['profilePic']; ?>"></div>
-                        <h3 class="name"> <?php echo $post['name'];?></h3>
+                        <h3 class="author"> <?php echo $post['author']['name'];?></h3>
                         <h4 class="title"><?php echo $post['title'];?></h4>
                         <div class="release"> <?php echo $post['release']; ?></div>
                     </div>
