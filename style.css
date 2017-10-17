@@ -147,3 +147,34 @@ h2:hover {
   align-items: flex-end;
   width: 30%;
 }
+
+.likeCounter {
+  border-radius: 10%;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 6px;
+  padding-left: 3px;
+  height: 35px;
+  width: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid rgba(149, 149, 149, 0.55);
+}
+
+.likeCounter:hover {
+  background-color: rgba(149, 149, 149, 0.55);
+  color: #fff;
+}
+
+.count {
+  margin-top: 1px;
+  margin-left: 5px;
+  font-family: Arial;
+
+}
+.thumb {
+  width: 25px;
+  height: 25px;
+  padding-bottom: 5px;
+}

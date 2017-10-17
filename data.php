@@ -21,7 +21,7 @@ $posts = [
         'profilePic' => 'images/yoda.png',
         'sharedImg' => 'images/pic1.jpeg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Luke Skywalker', 'id' => '002'],
@@ -32,7 +32,7 @@ $posts = [
         'profilePic' => 'images/luke.png',
         'sharedImg' => 'images/pic2.png',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Jabba the Hutt', 'id' => '003'],
@@ -44,7 +44,7 @@ $posts = [
         'profilePic' => 'images/jabba.jpg',
         'sharedImg' => 'images/pic3.jpg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Darth Vader', 'id' => '005'],
@@ -55,7 +55,7 @@ $posts = [
         'profilePic' => 'images/vader.png',
         'sharedImg' => 'images/pic4.jpg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
 
     ],
     [
@@ -69,7 +69,7 @@ $posts = [
         'profilePic' => 'images/han.png',
         'sharedImg' => 'images/pic5.jpg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Jabba the Hutt', 'id' => '003'],
@@ -80,7 +80,7 @@ $posts = [
         'profilePic' => 'images/jabba.jpg',
         'sharedImg' => 'images/pic6.jpg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Luke Skywalker', 'id' => '002'],
@@ -91,7 +91,7 @@ $posts = [
         'profilePic' => 'images/luke.png',
         'sharedImg' => 'images/pic7.png',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Master Yoda', 'id' => '001'],
@@ -103,7 +103,7 @@ $posts = [
         'profilePic' => 'images/yoda.png',
         'sharedImg' => 'images/pic8.jpg',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Han Solo', 'id'=> '004'],
@@ -116,7 +116,7 @@ $posts = [
         'profilePic' => 'images/han.png',
         'sharedImg' => 'images/pic9.png',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
     [
         'author' => ['name' => 'Darth Vader', 'id' => '005'],
@@ -127,7 +127,7 @@ $posts = [
         'profilePic' => 'images/vader.png',
         'sharedImg' => 'images/pic10.png',
         'thumb' => 'images/like.png',
-        'likes' => 25
+        'likes' => rand(10, 99)
     ],
 
         ];

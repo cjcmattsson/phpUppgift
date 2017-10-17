@@ -56,6 +56,12 @@
                         <h2 class="headline"> <?php echo $post['headline']; ?></h2>
                         <div class="content"> <?php echo $post['content']; ?></div>
 
+                        <div class="likeCounter">
+                            <img class="thumb" src="<?php echo $post['thumb'];?>" alt="">
+                            <p class="count"> <?php echo $post['likes'];?></p>
+                        </div>
+
+
                     </div>
 
                     <div class="profile">
@@ -64,6 +70,7 @@
                         <h4 class="title"><?php echo $post['title'];?></h4>
                         <div class="release"> <?php echo $post['release']; ?></div>
                     </div>
+
                 </div>
 
 
