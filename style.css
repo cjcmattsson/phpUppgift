@@ -24,29 +24,41 @@ h1 {
   margin-bottom: 5px;
 }
 
-
-
-.banner {
-  height: 300px;
-  width: 15%;
-  background-color: black;
+.banner img {
+  height: 65vh;
+  width: 200px;
   position: absolute;
-  margin: 0 auto;
+  margin: 0 10px;
+
 }
 
-.fixed {
-  position: fixed!important;
-  top: 10px!important;
-
+.fixed img {
+  top: 20px; /* KOLLA MOT JS OM DU ÄNDRAR :) */
+  height: 65vh;
+  width: 200px;
+  position: fixed;
+  margin: 0 10px;
 }
 
 .banner2 {
-  height: 300px;
-  width: 200px;
-  background-color: black;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 150px;
+  position: absolute;
+  margin: 0 30px;
+  right: 0;
+  top:215px;
+}
 
-  margin: 0;
+.innerBanner img {
+  height: 30vh;
+  width: 140px;
+  margin: auto;
+}
+
+.innerBannerLower {
+  border-radius: 20%;
 }
 
 .currentDate {

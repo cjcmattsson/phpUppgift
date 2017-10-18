@@ -52,7 +52,8 @@
     <div class="fullPage">
 
 
-<div class="banner"></div>
+<div class="banner"> <img src="images/banner.png" alt=""></div>
+
 
     <div class="wrapper">
 
@@ -94,10 +95,20 @@
 
     </div>
 
-    <div class="banner2"></div>
+    <div class="banner2">
+        <div class="innerBanner">
+            <img src="images/innerBanner2.png" alt="">
+        </div>
+        <div class="innerBanner">
+            <img class="innerBannerLower" src="images/innerBanner1.jpg" alt="">
+        </div>
+    </div>
 
     </div>
 
 <script src="functionsJS.js"></script>
+<script src="banner.js">
+
+</script>
 </body>
 </html>
