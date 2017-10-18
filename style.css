@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-
+  position: relative;
 }
 
 header{
@@ -22,6 +22,31 @@ h1 {
   text-align: center;
   color: #000;
   margin-bottom: 5px;
+}
+
+
+
+.banner {
+  height: 300px;
+  width: 15%;
+  background-color: black;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.fixed {
+  position: fixed!important;
+  top: 10px!important;
+
+}
+
+.banner2 {
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+
+  margin: 0;
 }
 
 .currentDate {

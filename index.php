@@ -22,7 +22,8 @@
   <title>Document</title>
 </head>
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Hate scrolling? <br> Press me - Go to top!</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Hate scrolling?
+      <br> Press me - Go to <br> the top!</button>
 
     <header>
         <h1>The Tatooine Times</h1>
@@ -47,6 +48,12 @@
             <li>Horses</li>
         </ul>
     </div>
+
+    <div class="fullPage">
+
+
+<div class="banner"></div>
+
     <div class="wrapper">
 
 
@@ -84,6 +91,10 @@
         <?php endforeach; ?>
 
 
+
+    </div>
+
+    <div class="banner2"></div>
 
     </div>
 
