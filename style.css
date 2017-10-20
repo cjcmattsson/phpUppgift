@@ -81,8 +81,8 @@ ul {
 }
 
 li {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.6%;
+  margin-right: 1.6%;
   list-style: none;
   display: inline-block;
 }
@@ -239,4 +239,20 @@ h2:hover {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+@media screen and (max-width: 1236px) {
+  .banner {
+    display: none;
+  }
+  .banner2 {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  #myBtn {
+    background-color: rgb(79, 210, 175);
+  }
 }
