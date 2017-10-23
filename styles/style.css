@@ -10,8 +10,8 @@ body {
 }
 
 @font-face {
-font-family: 'olde english';
-src: url('fonts/OldeEnglish.ttf') format('truetype')
+font-family: 'oldFont';
+src: url('fonts/OldeEnglish.ttf');
 }
 
 /*Styles that goes for the header and the menu*/
@@ -25,7 +25,7 @@ header {
 h1 {
   font-weight: lighter;
   font-size: 70px;
-  font-family: olde english;
+  font-family: oldFont;
   text-align: center;
   color: #000;
   margin-bottom: 5px;

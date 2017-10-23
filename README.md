@@ -1,6 +1,6 @@
 # Good News-project
 ## Part of PHP-course
-
+### Be aware - My project is designed on a 13 inch screen. Us at your on risk if operating on a larger screen. At least if u love Banners. They will not appear very nice on your big precious screen.
 <img src="https://media.giphy.com/media/3ornjSL2sBcPflIDiU/giphy.gif" alt="Star Wars is cool" width="100%">
 
 > Greedo: Jabba's through with you! He has no use for smugglers who drop their shipments at the first sign of an Imperial cruiser.
