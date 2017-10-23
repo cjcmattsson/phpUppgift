@@ -9,6 +9,11 @@ body {
   position: relative;
 }
 
+@font-face {
+font-family: 'olde english';
+src: url('fonts/OldeEnglish.ttf') format('truetype')
+}
+
 /*Styles that goes for the header and the menu*/
 /*HEADER*/
 header {
