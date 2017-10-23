@@ -2,6 +2,8 @@
 
   declare(strict_types=1);
 
+  // Function below sorts the posts in "data.php" by date.
+
   require __DIR__.'/data.php';
 
 
@@ -11,9 +13,3 @@
   }
 
   usort($posts, 'sortByDate');
-
-
-
-
-
-  // This is the file where you can keep all your functions.

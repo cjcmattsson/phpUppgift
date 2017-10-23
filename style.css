@@ -1,3 +1,4 @@
+/*General styles that goes for entire project*/
 * {
   box-sizing: border-box;
   font-family: Times;
@@ -8,11 +9,12 @@ body {
   position: relative;
 }
 
-header{
+/*Styles that goes for the header and the menu*/
+/*HEADER*/
+header {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid black;
-
 }
 
 h1 {
@@ -24,48 +26,12 @@ h1 {
   margin-bottom: 5px;
 }
 
-.banner img {
-  height: 65vh;
-  width: 200px;
-  position: absolute;
-  margin: 0 10px;
-
-}
-
-.fixed img {
-  top: 20px; /* KOLLA MOT JS OM DU ÄNDRAR :) */
-  height: 65vh;
-  width: 200px;
-  position: fixed;
-  margin: 0 10px;
-}
-
-.banner2 {
-  display: flex;
-  flex-direction: column;
-  height: 65vh;
-  width: 150px;
-  position: absolute;
-  margin: 0 30px;
-  right: 0;
-  top:215px;
-}
-
-.innerBanner img {
-  height: 30vh;
-  width: 140px;
-  margin: auto;
-}
-
-.innerBannerLower {
-  border-radius: 20%;
-}
-
 .currentDate {
   text-align: center;
   margin-bottom: 25px;
 }
 
+/*MENU*/
 .menu {
   padding-bottom: 3px;
   margin-bottom: 20px;
@@ -92,22 +58,46 @@ li:hover {
   cursor: pointer;
 }
 
-h3, h4 {
-  margin: 0;
-  padding-bottom: 5px;
+/*Styles for banners*/
+/*LEFT - Banner1*/
+.banner1 img {
+  height: 65vh;
+  width: 200px;
+  position: absolute;
+  margin: 0 10px;
 }
 
-h2 {
-  margin: 0;
-  font-size: 40px;
-  margin-bottom: 0px;
-  text-align: left;
+.fixed img {
+  top: 20px; /* Also update Javascript "banner.js" if updating this */
+  height: 65vh;
+  width: 200px;
+  position: fixed;
+  margin: 0 10px;
 }
 
-.content {
-  padding-bottom: 10px;
+/*RIGHT - Banner2*/
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 150px;
+  position: absolute;
+  margin: 0 30px;
+  right: 0;
+  top: 215px;
 }
 
+.innerBanner img {
+  height: 30vh;
+  width: 140px;
+  margin: auto;
+}
+
+.innerBannerLower {
+  border-radius: 20%;
+}
+
+/*Styles for the content/newsfeed*/
 .wrapper {
   display: flex;
   max-width: 800px;
@@ -118,19 +108,12 @@ h2 {
   margin: auto;
   border-left: 1px solid rgba(149, 149, 149, 0.55);
   border-right: 1px solid rgba(149, 149, 149, 0.55);
-
 }
 
-.profImg {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
-
+/*Large picture, regarding content*/
 .sharedImg img {
   width: 650px;
   height: 350px;
-
 }
 
 .sharedImg:hover {
@@ -138,31 +121,12 @@ h2 {
   cursor: pointer;
 }
 
-.post {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 650px;
-  min-height: 200px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid rgba(149, 149, 149, 0.55);
-}
-
-
-.shared{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/*Headline and short text about news-item*/
+h2 {
+  margin: 0;
+  font-size: 40px;
+  margin-bottom: 0px;
   text-align: left;
-  padding-top: 15px;
-
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 70%;
 }
 
 h2:hover {
@@ -170,24 +134,20 @@ h2:hover {
   cursor: pointer;
 }
 
+.content {
+  padding-bottom: 10px;
+}
+
+/*Styles for the Like-counter*/
 .counter {
   height: 30px;
   width: 50px;
   margin-top: 10px;
-
 }
 
 .counter img {
   width: 20px;
   height: 20px;
-
-}
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 30%;
 }
 
 .likeCounter {
@@ -195,7 +155,7 @@ h2:hover {
   margin-top: 4px;
   display: flex;
   flex-direction: row;
-  padding-top:3px;
+  padding-top: 3px;
   padding-left: 3px;
   height: 30px;
   width: 55px;
@@ -213,14 +173,59 @@ h2:hover {
   margin-top: 2px;
   margin-left: 4px;
   font-family: Arial;
-
 }
+
 .thumb {
   width: 25px;
   height: 25px;
   padding-bottom: 5px;
 }
 
+/*Styles for the writers image, name, title and general for the post*/
+h3, h4 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+}
+
+.profImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 650px;
+  min-height: 200px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(149, 149, 149, 0.55);
+}
+
+.shared {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+/*Styles for the "scroll to top"-button*/
 #myBtn {
   font-size: 12px;
   display: none;
@@ -241,18 +246,20 @@ h2:hover {
   background-color: #555;
 }
 
+/*Styles to make "scroll to top"-button change colour when page is below
+950 pixels so that it is more visible when floating above news-content*/
+@media screen and (max-width: 950px) {
+  #myBtn {
+    background-color: rgb(79, 210, 175);
+  }
+}
+
+/*Styles to make banners go away when page is below 1236 pixels wide*/
 @media screen and (max-width: 1236px) {
   .banner {
     display: none;
   }
   .banner2 {
     display: none;
-  }
-
-}
-
-@media screen and (max-width: 950px) {
-  #myBtn {
-    background-color: rgb(79, 210, 175);
   }
 }

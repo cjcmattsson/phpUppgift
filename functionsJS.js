@@ -1,3 +1,6 @@
+// Code below makes "scroll to top"-button appear when page is scrolled
+// below 500 pixels, and dissaper (is not shown) when above that.
+
 window.onscroll = function(){
   scrollFunction()
   };
@@ -9,7 +12,6 @@ function scrollFunction() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
-
 
 function topFunction() {
     document.body.scrollTop = 0;
