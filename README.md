@@ -36,6 +36,7 @@ any language from the Star Wars universe
 - Clone/download repository from GitHub
 - Download/open MAMP
 - Go to Preferences in MAMP and set Web Server to the folder you keep the repository in on your computer
+- Press "Start Servers" in MAMP
 - Open the index.php-file by typing localhost:8888 in your browser of choice
 - Enjoy responsibly
 
