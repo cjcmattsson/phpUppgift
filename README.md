@@ -40,7 +40,7 @@ any language from the Star Wars universe
 - Open the index.php-file by typing localhost:8888 in your browser of choice
 - Enjoy responsibly
 
-#### Be aware - My project is designed on a 13 inch screen. Us at your on risk if operating on a larger screen. At least if u love Banners. They will not appear very nice on your big precious screen.
+#### Be aware - My project is designed on a 13 inch screen. Use at your on risk if operating on a larger screen. At least if you love banners. They will not appear very nice on your big precious screen.
 
 ### Author:
 - Christopher Mattsson
