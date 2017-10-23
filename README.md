@@ -35,7 +35,7 @@ any language from the Star Wars universe
 - Download and install the font OldeEnglish in the fonts-folder
 - Clone/download repository from GitHub
 - Download/open MAMP
-- Go to Preferences in MAMP and set Web Server (root directory) to the folder you keep the repository in on your computer
+- Go to Preferences in MAMP and set Web Server (root directory) to the folder you just downloaded
 - Press "Start Servers" in MAMP
 - Open the index.php-file by typing localhost:8888 in your browser of choice
 - Enjoy responsibly
