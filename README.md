@@ -1,6 +1,6 @@
-#phpUppgift
+# Good News-project
 
-"Good News"-project, part of PHP-course
+Part of PHP-course
 
 
 
