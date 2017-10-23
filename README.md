@@ -27,8 +27,6 @@ My project has been influenced by 2 different "institutions"
 - The New York Times
 - Star Wars
 
-<br>
-
 ### Attention
 The text presented by the different authors are jibberish, its not like I know
 any language from the Star Wars universe
@@ -38,7 +36,7 @@ any language from the Star Wars universe
 - Clone/download repository from GitHub
 - Download/open MAMP
 - Go to Preferences in MAMP and set Web Server to the folder you keep the repository in on your computer
-- Open the index.php-file in your browser of choice
+- Open the index.php-file by typing localhost:8888 in your browser of choice
 - Enjoy responsibly
 
 
