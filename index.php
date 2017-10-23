@@ -4,8 +4,8 @@
 
   // Getting the syntax/data from both documents below to use in
   // this document.
-  require __DIR__.'/data.php';
-  require __DIR__.'/functions.php';
+  require __DIR__.'/php/data.php';
+  require __DIR__.'/php/functions.php';
 
 
   // This is the file where you can keep your HTML markup. We should always try to
@@ -21,7 +21,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="styles/style.css">
       <title>Document</title>
     </head>
     <body>
@@ -105,10 +105,10 @@
             </div>
 
         <!-- Javascript used to sort all news-items in order by date-->
-        <script src="functionsJS.js"></script>
+        <script src="jsScripts/functionsJS.js"></script>
 
         <!-- Javascript used to make left banner scroll down with page and also
              stick to the starting position when scrolling back up -->
-        <script src="banner.js"></script>
+        <script src="jsScripts/banner.js"></script>
     </body>
 </html>
