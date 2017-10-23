@@ -10,12 +10,21 @@
 <br>Greedo: That's the idea... I've been looking forward to this for a long time.
 <br>Han Solo: Yeah, I'll bet you have.
 <br>[Han blasts Greedo, then heads out, tossing the bartender a coin]
-<br>Han Solo: Sorry about the mess. 
+<br>Han Solo: Sorry about the mess.
 
 ## Assignment:
-- Create a simple News Feed containing made up news.
-- Create 5 different authors.
-- Each writer should have contributed with 2 articles.
+- Create a simple News Feed containing 10 made up news articles.
+- Create 5 different authors - each contributes with 2 articles.
+- Have fun.
 
 
-### Tested by: Sebastian Palm,
+## My project
+My project has been influenced by 2 different "institutions"
+- The New York Times
+- Star Wars
+
+
+### Tested by:
+- Sebastian Palm
+- XXX
+- YYY
