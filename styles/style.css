@@ -9,11 +9,6 @@ body {
   position: relative;
 }
 
-@font-face {
-font-family: 'oldFont';
-src: url('fonts/OldeEnglish.ttf');
-}
-
 /*Styles that goes for the header and the menu*/
 /*HEADER*/
 header {
@@ -25,7 +20,7 @@ header {
 h1 {
   font-weight: lighter;
   font-size: 70px;
-  font-family: oldFont;
+  font-family: olde english;
   text-align: center;
   color: #000;
   margin-bottom: 5px;
