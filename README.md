@@ -22,6 +22,15 @@
 My project has been influenced by 2 different "institutions"
 - The New York Times
 - Star Wars
+Attn. The text presented by the different authors are jibberish, its not like I know
+any language from the Star Wars universe.
+
+## To view project on your computer
+- Clone/download repository
+- Download MAMP
+- Set Web Server to the folder you keep the repository in on your computer
+- Open the index.php-file
+- Enjoy
 
 
 ### Tested by:
