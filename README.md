@@ -13,27 +13,34 @@
 <br>Han Solo: Sorry about the mess.
 
 ## Assignment:
-- Create a simple News Feed containing 10 made up news articles.
-- Create 5 different authors - each contributes with 2 articles.
-- Have fun.
+- Create a simple News Feed containing 10 made up news articles
+- Create 5 different authors - each contributes with 2 articles
+- Project may only be written in PHP, HTML, CSS and/or Javascript
+- Syntax should include multiple data types, variables, functions, concatenation, arrays,
+loops, output (echo, print etc.)
+- Other criteria also need to be met. Talk to VinKla for information about these.
+- Have fun
 
 
 ## My project
 My project has been influenced by 2 different "institutions"
 - The New York Times
 - Star Wars
-Attn. The text presented by the different authors are jibberish, its not like I know
-any language from the Star Wars universe.
+
+<br>
+###Attn.
+The text presented by the different authors are jibberish, its not like I know
+any language from the Star Wars universe
+
 
 ## To view project on your computer
-- Clone/download repository
-- Download MAMP
-- Set Web Server to the folder you keep the repository in on your computer
-- Open the index.php-file
-- Enjoy
+- Clone/download repository from GitHub
+- Download/open MAMP
+- Go to Preferences in MAMP and set Web Server to the folder you keep the repository in on your computer
+- Open the index.php-file in your browser of choice
+- Enjoy responsibly
 
 
 ### Tested by:
 - Sebastian Palm
-- XXX
-- YYY
+- Andreas Lundqvist
