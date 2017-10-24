@@ -32,8 +32,8 @@ any language from the Star Wars universe
 
 
 ## To view project on your computer
-- Open the fonts-folder and press/instal the font OldeEnglish.ttf
 - Clone/download repository from GitHub
+- Open the fonts-folder and press/instal the font OldeEnglish.ttf
 - Download/open MAMP
 - Go to Preferences in MAMP and set Web Server (root directory) to the folder you just downloaded
 - Press "Start Servers" in MAMP
