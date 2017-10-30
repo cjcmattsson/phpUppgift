@@ -54,3 +54,4 @@ any language from the Star Wars universe
 ### Tested by:
 - Sebastian Palm
 - Andreas Lundqvist
+- Albert Norberg
