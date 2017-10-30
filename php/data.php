@@ -6,10 +6,6 @@
     $currentDate = date('l, F d, Y');
 
 
-  // This is the file where you can keep all your data such as articles and
-  // authors.
-
-
   // All the data of the posts are stored in the array below
     $posts = [
         [
